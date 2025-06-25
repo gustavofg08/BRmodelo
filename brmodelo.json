@@ -1,16 +1,22 @@
 {
   "nomeModelo": "Plantas_db",
+  "descricao": "",
   "entidades": [
     {
       "nome": "plantas",
+      "descricao": "",
       "atributos": [
-        { "nome": "id", "tipo": "inteiro", "chave": "pk" },
-        { "nome": "nome_popular", "tipo": "string" },
-        { "nome": "nome_cientifico", "tipo": "string" },
-        { "nome": "familia", "tipo": "string" },
-        { "nome": "genero", "tipo": "string" },
-        { "nome": "especie", "tipo": "string" }
-      ]
+        { "nome": "id", "descricao": "", "tipo": "inteiro", "tamanho": 11, "obrigatorio": true, "chave": "pk" },
+        { "nome": "nome_popular", "descricao": "", "tipo": "varchar", "tamanho": 100, "obrigatorio": false },
+        { "nome": "nome_cientifico", "descricao": "", "tipo": "varchar", "tamanho": 100, "obrigatorio": false },
+        { "nome": "familia", "descricao": "", "tipo": "varchar", "tamanho": 100, "obrigatorio": false },
+        { "nome": "genero", "descricao": "", "tipo": "varchar", "tamanho": 100, "obrigatorio": false },
+        { "nome": "especie", "descricao": "", "tipo": "varchar", "tamanho": 100, "obrigatorio": false }
+      ],
+      "relacionamentos": [],
+      "restricoes": []
     }
-  ]
+  ],
+  "relacionamentos": [],
+  "restricoes": []
 }
