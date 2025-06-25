@@ -1,0 +1,16 @@
+{
+  "nomeModelo": "Plantas_db",
+  "entidades": [
+    {
+      "nome": "plantas",
+      "atributos": [
+        { "nome": "id", "tipo": "inteiro", "chave": "pk" },
+        { "nome": "nome_popular", "tipo": "string" },
+        { "nome": "nome_cientifico", "tipo": "string" },
+        { "nome": "familia", "tipo": "string" },
+        { "nome": "genero", "tipo": "string" },
+        { "nome": "especie", "tipo": "string" }
+      ]
+    }
+  ]
+}
