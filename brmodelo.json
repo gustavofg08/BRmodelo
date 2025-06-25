@@ -6,12 +6,66 @@
       "nome": "plantas",
       "descricao": "",
       "atributos": [
-        { "nome": "id", "descricao": "", "tipo": "inteiro", "tamanho": 11, "obrigatorio": true, "chave": "pk" },
-        { "nome": "nome_popular", "descricao": "", "tipo": "varchar", "tamanho": 100, "obrigatorio": false },
-        { "nome": "nome_cientifico", "descricao": "", "tipo": "varchar", "tamanho": 100, "obrigatorio": false },
-        { "nome": "familia", "descricao": "", "tipo": "varchar", "tamanho": 100, "obrigatorio": false },
-        { "nome": "genero", "descricao": "", "tipo": "varchar", "tamanho": 100, "obrigatorio": false },
-        { "nome": "especie", "descricao": "", "tipo": "varchar", "tamanho": 100, "obrigatorio": false }
+        {
+          "nome": "id",
+          "descricao": "",
+          "tipo": "inteiro",
+          "tamanho": 11,
+          "obrigatorio": true,
+          "chave": "pk",
+          "valorPadrao": null,
+          "comentario": null
+        },
+        {
+          "nome": "nome_popular",
+          "descricao": "",
+          "tipo": "varchar",
+          "tamanho": 100,
+          "obrigatorio": false,
+          "chave": null,
+          "valorPadrao": null,
+          "comentario": null
+        },
+        {
+          "nome": "nome_cientifico",
+          "descricao": "",
+          "tipo": "varchar",
+          "tamanho": 100,
+          "obrigatorio": false,
+          "chave": null,
+          "valorPadrao": null,
+          "comentario": null
+        },
+        {
+          "nome": "familia",
+          "descricao": "",
+          "tipo": "varchar",
+          "tamanho": 100,
+          "obrigatorio": false,
+          "chave": null,
+          "valorPadrao": null,
+          "comentario": null
+        },
+        {
+          "nome": "genero",
+          "descricao": "",
+          "tipo": "varchar",
+          "tamanho": 100,
+          "obrigatorio": false,
+          "chave": null,
+          "valorPadrao": null,
+          "comentario": null
+        },
+        {
+          "nome": "especie",
+          "descricao": "",
+          "tipo": "varchar",
+          "tamanho": 100,
+          "obrigatorio": false,
+          "chave": null,
+          "valorPadrao": null,
+          "comentario": null
+        }
       ],
       "relacionamentos": [],
       "restricoes": []
